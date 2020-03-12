@@ -18,3 +18,11 @@ weighted avg       0.61      0.63      0.61      2923
 --------------------------------------------------------
 
 https://github.com/namwon94/Project_Baseball
+
+
+
+https://www.basketballreference.com/leagues/NBA_2019_advanced.html#advanced_stats::ws - winshare
+
+http://insider.espn.com/nba/hollinger/statistics - per
+
+https://stats.nba.com/teams/advanced/?sort=OFF_RATING&dir=-1 - offrtg/defrtg
