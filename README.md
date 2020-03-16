@@ -8,18 +8,20 @@
 
               precision    recall  f1-score   support
 
-        away       0.54      0.33      0.41      1142
-        home       0.66      0.82      0.73      1781
+        away       0.58      0.30      0.40      1168
+        home       0.65      0.85      0.74      1755
 
     accuracy                           0.63      2923
-   macro avg       0.60      0.58      0.57      2923
-weighted avg       0.61      0.63      0.61      2923
+   macro avg       0.61      0.58      0.57      2923
+weighted avg       0.62      0.63      0.60      2923
 
 --------------------------------------------------------
+사용데이터:
+BPM: 플레이어 기여도 공/수
+VORP:대체선수대비 생산력 지표 야구의 WAR
+WS:승리기여도 공/수
 
 https://github.com/namwon94/Project_Baseball
-
-
 
 https://www.basketballreference.com/leagues/NBA_2019_advanced.html#advanced_stats::ws - winshare
 
