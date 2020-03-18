@@ -1,30 +1,22 @@
 # project_NBA_predict
+## <한국직업전문학교 무재칠시 프로젝트>
 미국 프로농구의 경기결과를 예측하는 프로젝트
-농구의 PER과 WS를 필두로 다양한 지표를 사용하였다
-직전시즌 팀평균을 이용하여 경기결과를 예측한 결과 
-약 60~63%의 정확도를 가지는 모델을 얻을 수 있었다
 
-----비고----------------------------------------------
+# Data source
+스탯: https://www.basketballreference.com/leagues/NBA_2019_advanced.html#advanced_stats::ws    
+스탯: http://insider.espn.com/nba/hollinger/statistics       
+경기결과: https://www.espn.com/nba/schedule         
 
-              precision    recall  f1-score   support
+# 사용데이터
+BPM: 플레이어 기여도 공/수      
+VORP:대체선수대비 생산력 지표 야구의 WAR      
+WS:승리기여도 공/수      
 
-        away       0.58      0.30      0.40      1168
-        home       0.65      0.85      0.74      1755
+# 결과
 
-    accuracy                           0.63      2923
-   macro avg       0.61      0.58      0.57      2923
-weighted avg       0.62      0.63      0.60      2923
+<img src='https://github.com/Woosub-Kim/project_NBA_predict/blob/master/NBA.PNG'/>
 
---------------------------------------------------------
-사용데이터:
-BPM: 플레이어 기여도 공/수
-VORP:대체선수대비 생산력 지표 야구의 WAR
-WS:승리기여도 공/수
+62~63%의 정확도를 얻어 야구보다 정확한 예측이 가능했다.     
+농구경기에는 무승부가 존재하지 않기때문으로 해석할 수 있다.         
 
-https://github.com/namwon94/Project_Baseball
 
-https://www.basketballreference.com/leagues/NBA_2019_advanced.html#advanced_stats::ws - winshare
-
-http://insider.espn.com/nba/hollinger/statistics - per
-
-https://stats.nba.com/teams/advanced/?sort=OFF_RATING&dir=-1 - offrtg/defrtg
