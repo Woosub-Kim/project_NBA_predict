@@ -19,4 +19,9 @@ WS:승리기여도 공/수
 62~63%의 정확도를 얻어 야구보다 정확한 예측이 가능했다.     
 농구경기에는 무승부가 존재하지 않기때문으로 해석할 수 있다.         
 
-
+###### 한국직업전문학교 무재칠시 링크
+https://github.com/Woosub-Kim/Project_KBO_Predict            
+https://github.com/Woosub-Kim/project_MLB_predict                           
+https://github.com/Woosub-Kim/project_NBA_predict                    
+https://github.com/Woosub-Kim/sports_predict_api                  
+https://github.com/namwon94/Project_Baseball                     
